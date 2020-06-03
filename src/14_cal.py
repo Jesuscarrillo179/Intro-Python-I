@@ -42,4 +42,4 @@ elif len(timestamp) == 1:
   print(calendar.month(year, int(timestamp[0])))
 else:
   print("the format input is month, year")
- 
+  sys.exit(1)
